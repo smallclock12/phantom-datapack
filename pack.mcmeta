@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Summon phantoms for friends!",
+    "pack_format": 71,
+    "supported_formats": [71,71]
+  }
+}
