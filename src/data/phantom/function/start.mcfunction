@@ -1,0 +1,7 @@
+function phantom:schedule
+scoreboard objectives add PhantomSleep minecraft.custom:minecraft.time_since_rest
+scoreboard objectives add PhantomPoints dummy
+scoreboard objectives add PhantomWardLastUse dummy
+scoreboard objectives add PhantomWardCurrentUse dummy
+scoreboard objectives add PhantomWardCooldown dummy
+scoreboard objectives add PhantomWardCost dummy
