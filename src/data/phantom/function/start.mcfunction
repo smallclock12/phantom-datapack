@@ -1,3 +1,5 @@
+# initialisation
+
 function phantom:schedule
 scoreboard objectives add PhantomSleep minecraft.custom:minecraft.time_since_rest
 scoreboard objectives add PhantomPoints dummy

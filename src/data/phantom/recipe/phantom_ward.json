@@ -1,13 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  p",
-    " s ",
+    " gd",
+    " mg",
     "s  "
   ],
   "key": {
-    "s":"minecraft:stick",
-    "p":"minecraft:phantom_membrane"
+    "s":"minecraft:end_rod",
+    "m":"minecraft:phantom_membrane",
+    "g":"minecraft:gold_ingot",
+    "d":"minecraft:diamond_block"
   },
   "result": {
     "id": "minecraft:stick",

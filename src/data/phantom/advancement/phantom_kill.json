@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stick"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {"custom_id": "phantom:phantom_ward"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "phantom:phantom_ward/check"
+  }
+}
