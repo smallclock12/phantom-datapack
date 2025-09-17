@@ -21,7 +21,10 @@
 	
       },
       "minecraft:item_name": "{\"text\":\"Phantom Ward\", \"color\": \"red\"}",
-      "minecraft:custom_data": "{\"custom_id\":\"phantom:phantom_ward\"}"
+      "minecraft:custom_data": "{\"custom_id\":\"phantom:phantom_ward\"}",
+      "minecraft:custom_model_data": {
+	"strings": ["phantom_ward"]
+      }
     }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [{
+      "when": "phantom_ward", 
+      "model": {
+        "type": "minecraft:model",
+        "model": "phantom:item/phantom_ward"
+      }
+    }],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/stick"
+    }
+  }
+}

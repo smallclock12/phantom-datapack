@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "phantom:item/phantom_ward",
+  }
+}

@@ -1,7 +1,6 @@
 {
   "pack": {
-    "description": "Phantoms are friends!",
-    "pack_format": 71,
-    "supported_formats": [71,71]
+    "description": "Phantoms are not friends!",
+    "pack_format": 71
   }
 }
