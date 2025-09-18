@@ -1,9 +1,10 @@
-PATH_TO_DATAPACK := ~/.local/share/multimc/instances/1.21.1-a/.minecraft/saves/New\ World\ \(1\)/datapacks
-NAME := Phantom
+PATH_TO_MC := ~/.local/share/multimc/instances/1.21.1-a/.minecraft
+WORLD_NAME := DatapackWorld
+PACK_NAME := phantom
+
+.PHONY: link
+link:
+	ln -rsf ./datapack ${PATH_TO_MC}/saves/${WORLD_NAME}/datapacks/${PACK_NAME}
+	ln -rsf ./resources ${PATH_TO_MC}/resourcepacks/${PACK_NAME}
 
 
-.PHONY: install
-install:
-	rm -rf ${PATH_TO_DATAPACK}/${NAME}
-	mkdir -p ${PATH_TO_DATAPACK}/${NAME}
-	cp -r ./src/* ${PATH_TO_DATAPACK}/${NAME}/
