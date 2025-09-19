@@ -15,6 +15,6 @@
     }
   },
   "rewards": {
-    "function": "phantom:phantom_ward/check"
+    "function": "phantom:phantom_ward/attempt_cast"
   }
 }
