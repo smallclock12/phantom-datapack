@@ -13,5 +13,5 @@ execute if data storage phantom:phantom_ward {result: 0b} run tellraw @s "No pha
 execute if data storage phantom:phantom_ward {result: 0b} run return fail
 
 # point deduction
-scoreboard players operation @s PhantomPoints -= @s PhantomWardCost
+scoreboard players operation @s PhantomPoints -= phantom_ward/cost Phantom
 

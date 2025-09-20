@@ -1,5 +1,6 @@
-PATH_TO_MC := ~/.local/share/multimc/instances/1.21.1-a/.minecraft
-WORLD_NAME := DatapackWorld
+#!make
+include .env
+
 PACK_NAME := phantom
 
 .PHONY: link
