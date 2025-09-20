@@ -1,7 +1,7 @@
-## Phantom Ward
+## Phantom Wand
 
 - Players can collect phantom points by killing phantoms and staying awake
-- Adds custom phantom ward item
+- Adds custom phantom wand item
   - Craftable with an end rod, a phantom membrane, a diamond block and 2 gold ingots
   - Custom model
   - Points are used as charges for the item
