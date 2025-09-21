@@ -3,6 +3,8 @@
 
 Players can collect phantom points by killing phantoms and staying awake & use them to craft useful items for dealing with phantoms!
 
+Demo: https://www.youtube.com/watch?v=HbAuA88faxw
+
 ## Phantom Wand
 
 - Adds custom phantom wand item
