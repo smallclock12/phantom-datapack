@@ -12,15 +12,13 @@
     "d": "minecraft:diamond_block"
   },
   "result": {
-    "id": "minecraft:item_frame",
+    "id": "minecraft:glow_item_frame",
     "count": 1,
     "components": {
       "minecraft:item_name": "{\"text\":\"Phantom Ward\", \"color\": \"red\"}",
       "minecraft:custom_data": "{\"custom_id\":\"phantom:phantom_ward\"}",
       "minecraft:entity_data": {
-        "id": "minecraft:item_frame",
-        "CustomName": "{\"text\":\"Phantom Ward\",\"color\": \"red\"}",
-        "CustomNameVisible": true,
+        "id": "minecraft:glow_item_frame",
         "data": "{\"custom_id\":\"phantom:phantom_ward\"}",
         "Invulnerable": true,
         "Fixed": true,
