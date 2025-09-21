@@ -2,14 +2,14 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "diamond",
-		"1": "leg1",
-		"2": "stem",
-		"3": "leg2",
-		"4": "leg3",
-		"5": "leg4",
-		"6": "trims",
-		"particle": "diamond"
+		"0": "phantom:item/phantom_ward_diamond",
+		"1": "phantom:item/phantom_ward_leg1",
+		"2": "phantom:item/phantom_ward_stem",
+		"3": "phantom:item/phantom_ward_leg2",
+		"4": "phantom:item/phantom_ward_leg3",
+		"5": "phantom:item/phantom_ward_leg4",
+		"6": "phantom:item/phantom_ward_trims",
+		"particle": "phantom:item/phantom_ward_diamond"
 	},
 	"elements": [
 		{
@@ -313,6 +313,29 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.25, -0.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2.25, -0.25]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 0.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.25, 0]
+		},
+		"gui": {
+			"translation": [0.25, 4.5, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"fixed": {
+			"rotation": [-89, 0, 0],
+			"translation": [-0.25, 0.25, -14.5],
+			"scale": [2, 2, 2]
+		}
+	},
 	"groups": [
 		{
 			"name": "leg1",
