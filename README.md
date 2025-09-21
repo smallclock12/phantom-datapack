@@ -5,6 +5,9 @@ Players can collect phantom points by killing phantoms and staying awake & use t
 
 Demo: https://www.youtube.com/watch?v=HbAuA88faxw
 
+## Terror Boss
+- Phantom boss with unique attacks 3 attacks
+
 ## Phantom Wand
 
 - Adds custom phantom wand item
