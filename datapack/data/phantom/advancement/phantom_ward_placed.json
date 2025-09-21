@@ -5,23 +5,13 @@
       "conditions": {
         "location": [
           {
-            "condition": "minecraft:any_of",
+            "condition": "minecraft:all_of",
             "terms": [
               {
                 "condition": "location_check",
                 "predicate": {
                   "block": {
-                    "blocks": "minecraft:player_head",
-                    "nbt": "{components:{\"minecraft:custom_data\":{phantom_ward:1b}}}"
-                  }
-                }
-              },
-              {
-                "condition": "location_check",
-                "predicate": {
-                  "block": {
-                    "blocks": "minecraft:player_wall_head",
-                    "nbt": "{components:{\"minecraft:custom_data\":{phantom_ward:1b}}}"
+                    "blocks": "minecraft:diamond_block"
                   }
                 }
               }
