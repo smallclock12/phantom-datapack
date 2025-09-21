@@ -3,10 +3,18 @@
 
 Players can collect phantom points by killing phantoms and staying awake & use them to craft useful items for dealing with phantoms!
 
-Demo: https://www.youtube.com/watch?v=HbAuA88faxw
+Demo: 
+- Items: https://www.youtube.com/watch?v=HbAuA88faxw
+- Boss: https://www.youtube.com/watch?v=EtYUR831qGs
 
 ## Terror Boss
 - Phantom boss with unique attacks 3 attacks
+
+Todo on boss:
+- Clean up routine once dead
+- Make it so that multiple can be in play at once
+- Some way to summon it in regular gameplay
+- Enrage phase!!
 
 ## Phantom Wand
 
