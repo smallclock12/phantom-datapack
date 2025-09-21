@@ -3,7 +3,7 @@
 
 Players can collect phantom points by killing phantoms and staying awake & use them to craft useful items for dealing with phantoms!
 
-Demo: 
+Preview: 
 - Items: https://www.youtube.com/watch?v=HbAuA88faxw
 - Boss: https://www.youtube.com/watch?v=EtYUR831qGs
 
