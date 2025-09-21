@@ -1,8 +1,8 @@
 # cast phantom wand!
 
 # tag targets
-tag @e[distance=..20,type=minecraft:phantom,tag=!boss] remove phantom_wand_target
-execute store success storage phantom:phantom_wand result byte 1 run tag @e[distance=..20,type=minecraft:phantom] add phantom_wand_target
+tag @e[distance=..30,type=minecraft:phantom] remove phantom_wand_target
+execute store success storage phantom:phantom_wand result byte 1 run tag @e[distance=..20,type=minecraft:phantom,tag=!boss] add phantom_wand_target
 
 # do things
 playsound minecraft:entity.phantom.bite hostile @a[distance=..10]
