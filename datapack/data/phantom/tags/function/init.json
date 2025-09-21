@@ -1,6 +1,7 @@
 {
   "values": [
     "phantom:phantom_ward/init",
-    "phantom:phantom_wand/init"
+    "phantom:phantom_wand/init",
+    "phantom:terror/init"
   ]
 }
