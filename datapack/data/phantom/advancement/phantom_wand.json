@@ -8,13 +8,15 @@
             "minecraft:stick"
           ],
           "predicates": {
-            "minecraft:custom_data": {"custom_id": "phantom:phantom_ward"}
+            "minecraft:custom_data": {
+              "custom_id": "phantom:phantom_wand"
+            }
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "phantom:phantom_ward/attempt_cast"
+    "function": "phantom:phantom_wand/attempt_cast"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " gd",
+    " mg",
+    "s  "
+  ],
+  "key": {
+    "s": "minecraft:end_rod",
+    "m": "minecraft:phantom_membrane",
+    "g": "minecraft:gold_ingot",
+    "d": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "count": 1,
+    "components": {
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "minecraft:diamond_block",
+            "speed": 6
+          }
+        ],
+        "default_mining_speed": -1
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 999999999,
+        "animation": "spyglass"
+      },
+      "minecraft:item_name": "{\"text\":\"Phantom Wand\", \"color\": \"red\"}",
+      "minecraft:custom_data": "{\"custom_id\":\"phantom:phantom_wand\"}",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "phantom_wand"
+        ]
+      }
+    }
+  }
+}

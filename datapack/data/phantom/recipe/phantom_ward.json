@@ -1,29 +1,48 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " gd",
-    " mg",
-    "s  "
+    " d ",
+    "gmg",
+    "dsd"
   ],
   "key": {
-    "s":"minecraft:end_rod",
-    "m":"minecraft:phantom_membrane",
-    "g":"minecraft:gold_ingot",
-    "d":"minecraft:diamond_block"
+    "s": "minecraft:end_rod",
+    "m": "minecraft:phantom_membrane",
+    "g": "minecraft:gold_ingot",
+    "d": "minecraft:diamond_block"
   },
   "result": {
-    "id": "minecraft:stick",
+    "id": "minecraft:item_frame",
     "count": 1,
     "components": {
-      "minecraft:consumable": {
-	"consume_seconds": 999999999,
-	"animation": "spyglass"
-	
-      },
       "minecraft:item_name": "{\"text\":\"Phantom Ward\", \"color\": \"red\"}",
       "minecraft:custom_data": "{\"custom_id\":\"phantom:phantom_ward\"}",
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "CustomName": "{\"text\":\"Phantom Ward\",\"color\": \"red\"}",
+        "CustomNameVisible": true,
+        "data": "{\"custom_id\":\"phantom:phantom_ward\"}",
+        "Invulnerable": true,
+        "Fixed": true,
+        "Invisible": true,
+        "Tags": [
+          "phantom_ward"
+        ],
+        "Item": {
+          "id": "minecraft:stick",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "phantom_wand"
+              ]
+            }
+          }
+        }
+      },
       "minecraft:custom_model_data": {
-	"strings": ["phantom_ward"]
+        "strings": [
+          "phantom_ward"
+        ]
       }
     }
   }
