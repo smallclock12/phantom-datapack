@@ -33,7 +33,7 @@
           "components": {
             "minecraft:custom_model_data": {
               "strings": [
-                "phantom_wand"
+                "phantom_ward"
               ]
             }
           }

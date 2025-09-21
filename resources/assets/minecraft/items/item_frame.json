@@ -4,13 +4,6 @@
     "property": "minecraft:custom_model_data",
     "cases": [
       {
-        "when": "phantom_wand",
-        "model": {
-          "type": "minecraft:model",
-          "model": "phantom:item/phantom_wand"
-        }
-      },
-      {
         "when": "phantom_ward",
         "model": {
           "type": "minecraft:model",
@@ -20,7 +13,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/stick"
+      "model": "minecraft:item/item_frame"
     }
   }
 }
