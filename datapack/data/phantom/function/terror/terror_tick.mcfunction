@@ -1,4 +1,4 @@
-execute store result bossbar minecraft:terror value run data get entity @e[limit=1,tag=boss,tag=terror,type=minecraft:phantom] Health
+
 execute at @e[type=minecraft:phantom,tag=terror,tag=boss] run bossbar set minecraft:terror players @a[distance=..100]
 scoreboard players add terror/counter Phantom 1
 

@@ -2,6 +2,7 @@
   "values": [
     "phantom:terror/aoe",
     "phantom:terror/spike",
-    "phantom:terror/summon_minions"
+    "phantom:terror/summon_minions",
+    "phantom:terror/enrage"
   ]
 }
