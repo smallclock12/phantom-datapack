@@ -11,10 +11,8 @@ Preview:
 - Phantom boss with unique attacks 3 attacks
 
 Todo on boss:
-- Clean up routine once dead
-- Make it so that multiple can be in play at once
+- Unique variables per summon instead of global
 - Some way to summon it in regular gameplay
-- Enrage phase!!
 
 ## Phantom Wand
 
