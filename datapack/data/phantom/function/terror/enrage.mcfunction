@@ -11,7 +11,7 @@ scoreboard players operation terror/ability_cooldown Phantom = terror/enraged/ab
 scoreboard players operation terror/ability_telegraph Phantom = terror/enraged/ability_telegraph Phantom
 scoreboard players operation terror/ability_spike_at Phantom = terror/enraged/ability_spike_at Phantom
 
-particle minecraft:dust{color:[1,0,0],scale:2} ~ ~ ~ 2 2 2 1 1000
+particle minecraft:dust{color:[1,0,0],scale:2} ~ ~ ~ 2 2 2 1 250
 playsound minecraft:entity.enderman.scream hostile @a[distance=..100] ~ ~ ~ 2 0
 tellraw @a[distance=..100] {"text":"Terror has become enraged!","color":"red"}
 
