@@ -5,7 +5,7 @@ Players can collect phantom points by killing phantoms and staying awake & use t
 
 Preview: 
 - Items: https://www.youtube.com/watch?v=HbAuA88faxw
-- Boss: https://www.youtube.com/watch?v=EtYUR831qGs
+- Boss: [https://www.youtube.com/watch?v=EtYUR831qGs](https://www.youtube.com/watch?v=2TbhJ312PtA&feature=youtu.be)
 
 ## Terror Boss
 - Phantom boss with unique attacks 3 attacks
