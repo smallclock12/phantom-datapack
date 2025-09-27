@@ -28,7 +28,7 @@
         "consume_seconds": 999999999,
         "animation": "spyglass"
       },
-      "minecraft:item_name": "{\"text\":\"Phantom Wand\", \"color\": \"red\"}",
+      "minecraft:item_name": {"text":"Phantom Wand", "color": "red"},
       "minecraft:custom_data": "{\"custom_id\":\"phantom:phantom_wand\"}",
       "minecraft:custom_model_data": {
         "strings": [

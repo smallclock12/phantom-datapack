@@ -1,7 +1,7 @@
 # only run if the next attack is 1
 execute unless score terror/next Phantom matches 1 run return fail
 
-execute unless score terror/ability_spike_at Phantom >= terror/counter Phantom run return fail
+execute unless score terror/ability_spike_at Phantom >= terror/ability_counter Phantom run return fail
 
 # evoker fangs have a built in pause before hurting the player so this all happens in the same tick
 
