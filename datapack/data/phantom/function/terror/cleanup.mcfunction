@@ -1,8 +1,10 @@
-bossbar set minecraft:terror players test
-scoreboard players set terror/active Phantom 0
-scoreboard players set terror/enraged Phantom 0
-scoreboard players set terror/counter Phantom 0
 
-# kill all offspring
-kill @e[type=minecraft:phantom,tag=terror]
+# start clean up process
+
+# take a copy of active set
+data modify storage terror active_for_cleanup set from storage terror active
+scoreboard players set terror/active_index Phantom 0
+
+# start the loop over copied active set
+function phantom:terror/internal/cleanup_loop with storage terror
 
