@@ -11,7 +11,6 @@ Preview:
 - Phantom boss with unique attacks 3 attacks
 
 Todo on boss:
-- Unique variables per summon instead of global
 - Some way to summon it in regular gameplay
 
 ## Phantom Wand
