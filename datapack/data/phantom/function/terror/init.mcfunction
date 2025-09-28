@@ -13,7 +13,5 @@ scoreboard players set terror/enraged/ability_telegraph Phantom 3
 scoreboard players set terror/enraged/ability_spike_at Phantom 4
 scoreboard players set terror/enraged/enrage_at Phantom 200
 
-function phantom:terror/score_reset
-
 execute store result score terror/next Phantom run random value 1..3
 
